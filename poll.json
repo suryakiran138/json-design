@@ -1,0 +1,35 @@
+{
+"uuid" : "poll-uuid",
+"created_by":"account or user uuid",
+"created_at":"UTC-timestamp",
+"updated_by":"account or user uuid",
+"updated_at":"UTC-timestamp",
+"name":"name of the poll",
+"desc":"description of the poll",
+"status":"draft|active",
+"poll_strategy":"manual",
+"set_order":"random|predetermined",
+"item_sets":[ 
+  {
+    "trigger_event":"manual|+10s"
+    "set_id":"incremental-value",
+    "item_order":"random|predetermined",
+    "items_config":[
+      {
+        "uuid":"item uuid",
+        "item_order":1
+      }
+    ],
+    "set_order":1
+    "set_duration_seconds":200
+  }
+ ],
+"poll-end-config" : {
+    "show-results" : true | false,
+    "show-overall-results" : true | false
+},
+"poll-question-config" : {
+    "show-answer" : true | false,
+     "show-overall-results" : true | false
+}
+}
