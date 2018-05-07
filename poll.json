@@ -11,7 +11,7 @@
 "set_order":"random|predetermined",
 "item_sets":[ 
   {
-    "trigger_event":"manual|+10s"
+    "trigger_event":"manual|+10s",
     "set_id":"incremental-value",
     "item_order":"random|predetermined",
     "items_config":[
@@ -20,7 +20,7 @@
         "item_order":1
       }
     ],
-    "set_order":1
+    "set_order":1,
     "set_duration_seconds":200
   }
  ],
