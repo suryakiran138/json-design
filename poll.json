@@ -8,7 +8,7 @@
 "desc":"description of the poll",
 "status":"draft|active",
 "poll_strategy":"manual",
-"set_order":"random|predetermined",
+"set_order_type":"random|predetermined",
 "item_sets":[ 
   {
     "trigger_event":"manual|+10s",
@@ -28,7 +28,7 @@
     "show-results" : true | false,
     "show-overall-results" : true | false
 },
-"poll-question-config" : {
+"poll-item-config" : {
     "show-answer" : true | false,
      "show-overall-results" : true | false
 }
