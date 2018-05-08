@@ -1,0 +1,6 @@
+{
+"poll_id" : "uuid of poll",
+"user_id" : "account id or user id",
+"item_id" : "uuid of the item"
+"selected_answer" : {}
+}
