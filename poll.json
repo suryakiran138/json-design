@@ -14,7 +14,7 @@
     "trigger_event":"manual|+10s",
     "set_id":"incremental-value",
     "item_order":"random|predetermined",
-    "items_config":[
+    "items_configs":[
       {
         "uuid":"item uuid",
         "item_order":1
